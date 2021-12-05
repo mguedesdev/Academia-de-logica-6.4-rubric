@@ -1,0 +1,99 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  
+}
+
+body{
+  background-color: rgb(95, 177, 156);
+}
+
+.header-trybe{
+  margin: 25px auto;
+  display: flex;
+  color: rgb(98, 202, 150);
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: black 0px 1px 5px;
+  background-color: rgb(250, 250, 250)
+}
+
+.header-trybe img{
+  margin-right: 20px;
+  height: 70px;
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0px auto;
+  border-radius: 5px;
+  box-shadow: black 0px 1px 5px;
+  background-color: rgb(250, 250, 250)
+}
+
+.hotel-form, .list-section{
+  padding: 50px 0px;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  color: rgb(56, 56, 56);
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.form-section {
+  padding: 15px;
+  margin: 15px auto;
+  border: black 1px solid;
+  border-radius: 5px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.pessoas-section{
+  justify-content:center
+}
+
+.pessoas-section label{
+  margin-right: 10px;
+}
+
+li{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size:25px;
+  border: black 1px solid;
+}
+
+ol{
+  margin-top: 12px;
+  width: 70%;
+}
+
+button{
+  color: white;
+  background-color: rgb(87, 199, 143);
+  border-radius: 4px;
+  width: 30%;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  font-size: large;
+}
+
+textarea{
+  box-sizing: content-box;
+  padding: 10px;
+}
